@@ -45,7 +45,7 @@
                 <version>0.4.13</version>
                 <configuration>
                     <!--imaname是将要创建的镜像名称-->
-                    <imageName>120.78.171.248:5000/${project.artifactId}:${project.version}
+                    <imageName>120.78.171.248:5001/${project.artifactId}:${project.version}
                     </imageName>
                     <baseImage>jdk1.8</baseImage>
                     <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]
